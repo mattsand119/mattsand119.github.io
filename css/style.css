@@ -1,0 +1,87 @@
+body {
+  color: #3c3c3c;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+i {
+  color: white;
+}
+
+nav  {
+  display: flex;
+  background-color:darkslategray;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-item a {
+  padding:20px;
+  color:white;
+  text-decoration: none;
+  font-size:20px;
+}
+.nav-item:hover {
+  color:white;
+}
+.nav-item:hover a {
+  color:black;
+  background:white;
+}
+
+.banner {
+  background-image:url("../images/home_banner-x489.png"); 
+  padding-bottom: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.banner h1 {
+  display:flex;
+  font-family: 'Lobster', cursive;
+  text-shadow: 3px 3px 2px #474747;
+  position: absolute;
+  top: 23%;
+  left: 30%;
+  color: white;
+  font-size: 135px;
+
+}
+.banner p {
+  display: flex;
+  font-family: 'Lobster', cursive;
+  text-shadow: 3px 3px 2px #474747;
+  position: absolute;
+  top: 60%;
+  left: 35%;
+  color: white;
+  font-size: 50px;
+
+}
+.content-one {
+  background-color: lightgrey;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.content-two {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  margin:0px;
+  padding:40px;
+}
+
+p {
+  text-align: center;
+  margin: 50px;
+  font-size: 27px;
+}
