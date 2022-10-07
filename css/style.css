@@ -35,33 +35,27 @@ nav  {
 
 .banner {
   background-image:url("../images/home_banner-x489.png"); 
-  padding-bottom: 600px;
+  padding-bottom: 200px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
 }
 .banner h1 {
-  display:flex;
   font-family: 'Lobster', cursive;
   text-shadow: 3px 3px 2px #474747;
-  position: absolute;
-  top: 23%;
-  left: 30%;
+  text-align: center;
   color: white;
   font-size: 135px;
+  margin-top: 0%;
+
 
 }
 .banner p {
-  display: flex;
   font-family: 'Lobster', cursive;
   text-shadow: 3px 3px 2px #474747;
-  position: absolute;
-  top: 60%;
-  left: 24%;
   color: white;
   font-size: 50px;
-
+  text-align: center;
 }
 .content-one {
   background-color: lightgrey;
